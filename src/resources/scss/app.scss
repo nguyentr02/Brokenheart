@@ -1,0 +1,904 @@
+
+@font-face {
+    font-family: 'Jaldi';
+    src: url("../font/Jaldi-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: 'Metal';
+    src: url("../font/Metal-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src: url("../font/Inter-VariableFont_slnt,wght.ttf");
+  }
+  @font-face {
+    font-family: 'Jeju';
+    src: url("../font/JejuGothic-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: 'Klee';
+    src : url("../font/KleeOne-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: 'Lustria';
+    src: url("../font/Lustria-Regular.ttf");
+  }
+  
+  .login {
+    width: 100%;
+    margin: 0;
+    background-image: url('../image/loginImage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+  
+  .loginTitle {
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 60px;
+  }
+  
+  #loginTitle {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    vertical-align: top;
+    font-size: 94px;
+  }
+  
+  .logUsername {
+    flex-direction: row;
+    display: flex;
+    width: 70%;
+    margin-left: 200px;
+    margin-bottom: 90px;
+  }
+  
+  .logPassword {
+    flex-direction: row;
+    display: flex;
+    width: 70%;
+    margin-left: 200px;
+  }
+  
+  .logText {
+    font-size: 48px;
+    font-family: Jaldi;
+    margin-right: 30px;
+  }
+  
+  .logInput {
+    width: 68%;
+    color: #d9d9d9;
+    border-radius: 5px;
+    opacity: .5;
+    border: 2px solid black;
+  }
+  
+  #passwordInput {
+    margin-left: 14px;
+  }
+  
+  #loginButton {
+    width: 49%;
+    height: 70px;
+    align-content: center;
+    margin-top: 40px;
+    margin-left: 410px;
+    background-color: #e798e9;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 55px;
+    font-family: Jaldi;
+    vertical-align: middle;
+    line-height: 10px;
+  }
+  
+  .fyp {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+    .fyp span {
+        font-family: Jaldi;
+        font-size: 40px;
+        margin-left: 120px;
+    }
+  
+  #registerButton {
+    width: 49%;
+    height: 83px;
+    align-content: center;
+    margin-top: 40px;
+    margin-left: 410px;
+    background-color: #e798e9;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 55px;
+    font-family: Jaldi;
+    vertical-align: middle;
+    line-height: 10px;
+    margin-bottom: 90px;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    z-index:-1;
+    height: 190px;
+  }
+  
+  .footer-letters {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 100%;
+  }
+  
+  .footer-image {
+    float: right;
+    width: 15%;
+    height: 100%;
+    padding: 15px 10px 0px 0px;
+  }
+  
+  #footer-roundImg {
+    width: 70%;
+    height: 80%;
+    background-color: #AB4747;
+    border-radius: 50%;
+  }
+  
+  .footer-letter-roundImg {
+    font-family: Metal;
+    font-size: 32px;
+    color: #BC21BF;
+    align-items: center;
+  }
+  
+  #footer-p-roundImg {
+    text-align: center;
+    margin: 0%;
+    padding-top: 15px;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  }
+  
+  .footer-firstLine {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+  }
+  
+  #footer-1-firstLine {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 200px;
+  }
+  
+  #footer-2-firstLine {
+    height: 100%;
+    margin-left: 120px;
+    margin-right: 80px;
+  }
+  
+  #footer-2-firstLine img {
+    height: 50%;
+    margin: 0px 10px 0px 10px;
+  }
+  
+  #footer-3-firstLine {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: black;
+  }
+  
+  .footer-secondLine {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    margin-left: 60px;
+  }
+  
+  #footer-1-secondLine {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: black;
+    margin-right: 90px;
+  }
+  
+  #footer-2-secondLine {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: black;
+    margin-right: 130px;
+  }
+  
+  #footer-3-secondLine {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: black;
+    margin-right: 130px;
+  }
+  
+  #footer-4-secondLine {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: black;
+  }
+  
+  .register {
+    width: 100%;
+    margin: 0;
+    z-index: -1;
+  }
+  
+  .register-title {
+    text-align: center;
+  }
+  
+  #register-title {
+    font-family: 'Lustria';
+    font-size: 96px;
+  }
+  
+  .register-functions {
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  /* CSS for Username Entering Field */
+  .register-username {
+    display: flex;
+    flex-direction: row;
+    height: 81px;
+    margin-left: 180px;
+  }
+  
+  .register-username-text {
+    width: 20%;
+  }
+  
+  #register-username-text {
+    font-family: 'Jaldi';
+    font-size: 48px;
+  }
+  
+  .register-username-input {
+    width: 788px;
+    height: 100%;
+    margin-left: 80px;
+  }
+  
+  #register-username-input {
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    border: 0;
+  }
+  
+  /* CSS for Password Entering Field */
+  .register-password {
+    display: flex;
+    flex-direction: row;
+    height: 81px;
+    margin-left: 180px;
+    margin-top: 50px;
+  }
+  
+  .register-password-text {
+    width: 20%;
+  }
+  
+  #register-password-text {
+    font-family: 'Jaldi';
+    font-size: 48px;
+  }
+  
+  .register-password-input {
+    width: 788px;
+    height: 100%;
+    margin-left: 80px;
+  }
+  
+  #register-password-input {
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    border: 0;
+  }
+  
+  /* CSS for Phone Entering Field */
+  .register-phone {
+    display: flex;
+    flex-direction: row;
+    height: 81px;
+    margin-left: 180px;
+    margin-top: 50px;
+  }
+  
+  .register-phone-text {
+    width: 20%;
+  }
+  
+  #register-phone-text {
+    font-family: 'Jaldi';
+    font-size: 48px;
+  }
+  
+  .register-phone-input {
+    width: 788px;
+    height: 100%;
+    margin-left: 80px;
+  }
+  
+  #register-phone-input {
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    border: 0;
+  }
+  
+  /* CSS for Email Entering Field */
+  .register-email {
+    display: flex;
+    flex-direction: row;
+    height: 81px;
+    margin-left: 180px;
+    margin-top: 50px;
+  }
+  
+  .register-email-text {
+    width: 20%;
+  }
+  
+  #register-email-text {
+    font-family: 'Jaldi';
+    font-size: 48px;
+  }
+  
+  .register-email-input {
+    width: 788px;
+    height: 100%;
+    margin-left: 80px;
+  }
+  
+  #register-email-input {
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    border: 0;
+  }
+  
+  /* CSS for Sex Entering Field */
+  .register-sex {
+    display: flex;
+    flex-direction: row;
+    height: 81px;
+    margin-left: 180px;
+    margin-top: 20px;
+  }
+  
+  .register-sex-text {
+    width: 20%;
+  }
+  
+  #register-sex-text {
+    font-family: 'Jaldi';
+    font-size: 48px;
+  }
+  
+  .register-choseMale {
+    display: flex;
+    flex-direction: row;
+    margin-left: 76px;
+  }
+  
+  #register-choseMale-text {
+    font-family: 'Jaldi';
+    font-size: 48px;
+  }
+  
+  #register-input-choseMale {
+    width: 88px;
+    height: 83px;
+    margin-left: 55px;
+    background-color: #D9D9D9;
+  }
+  
+  .register-choseFemale {
+    display: flex;
+    flex-direction: row;
+    margin-left: 110px;
+  }
+  
+  #register-choseFemale-text {
+    font-family: 'Jaldi';
+    font-size: 48px;
+  }
+  
+  #register-input-choseFemale {
+    width: 88px;
+    height: 83px;
+    margin-left: 55px;
+    background-color: #D9D9D9;
+  }
+  
+  /* CSS for SigninButton */
+  #register-signinButton {
+    width: 22%;
+    height: 70px;
+    align-content: center;
+    margin-top: 40px;
+    margin-left: 670px;
+    background-color: #F6F6F9;
+    border-radius: 8px;
+    border: 2px solid #CB1414;
+    font-size: 36px;
+    font-family: 'Jeju';
+    line-height: 10px;
+    box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    z-index:1;
+  }
+  
+  /*Css for navbar*/
+  .header {
+    width: 100%;
+    z-index:-1;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  
+  .nav-title {
+    text-align: center;
+    vertical-align: top;
+    padding-top: 0;
+    margin-top: 0;
+    height: 140px;
+    position: relative;
+  }
+  
+  #nav-title {
+    font-family: Metal;
+    font-size: 96px;
+    padding-top: 0;
+    margin-top: 0;
+    color: #BC21BF;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 2px 0 black, 0 -2px 0 rgb(0, 0, 0), 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  }
+  
+  .nav-line1 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #nav-text {
+    font-size: 48px;
+    font-family: Klee;
+    color: black;
+  }
+  
+  .nav-home {
+    margin-left: 82px;
+  }
+  
+  .nav-blog {
+    margin-left: 115px;
+  }
+  
+  .nav-about {
+    margin-left: 98px;
+  }
+  
+  .nav-contact {
+    margin-left: 42px;
+  }
+  
+  .nav-profile {
+    margin-left: 43px;
+  }
+  
+  #nav-img {
+    height: 50px;
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 14px;
+  }
+  
+  #nav-img img {
+    margin-right: 35px;
+  }
+  
+  /*CSS for Home page*/
+  
+  .home {
+    width: 100%;
+    margin: 0;
+    height: 588px;
+    background-image: url('../image/Home-kitchen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+  }
+  
+  #home-content-image {
+    margin-left:430px;
+    margin-top: 70px;
+  }
+  
+  .home-redirect-btn {
+    font-family: Klee;
+    font-size: 64px;
+    vertical-align:central;
+    text-align: center;
+    margin-left: 585px;
+    margin-top: 40px;
+    border: 2px solid red;
+    width: 406px;
+    height: 101px;
+  }
+  
+  /*CSS for Content page*/
+  
+  .content {
+    margin: 0;
+    width: 100%;
+    /*height:*/
+  }
+  
+  .content-time {
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  
+  #content-time {
+    font-family: Inter;
+    font-size: 32px;
+  }
+  
+  .content-document {
+    display: flex;
+    flex-direction: row;
+    height: 490px;
+  }
+  
+  .content-1stCol-box {
+    background-color: #D9D9D9;
+    width: 77%;
+    height: 456px;
+    font-family: Inter;
+    font-size: 31px;
+  }
+
+  .content-1stCol-box span {
+    margin: 40px 0 0 30px;
+  }
+  
+  
+  .content-2ndCol {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #content-2ndCol-image {
+    border-radius:50%;
+    height:189px;
+    width:186px;
+    margin-left:75px;
+  }
+  
+  .content-2ndCol-box {
+    background-color: #D9D9D9;
+    width: 80%;
+    height: 240px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  #content-profile-text1{
+    font-family:Inter;
+    font-size:30px;
+    margin-top:8px;
+  }
+  
+  #content-profile-text2 {
+    font-family: Inter;
+    font-size: 30px;
+    margin-top: 8px;
+  }
+  
+  /*CSS for bloglist*/
+  
+  .bloglist {
+    margin:0;
+    width:100%;
+    height:600px;
+    display:flex;
+    flex-direction:row;
+  }
+  
+  .bloglist-firstimg{
+    width:419px;
+    height:501px;
+  }
+  
+  .bloglist-text1 {
+    width: 340px;
+    background-color: #D9D9D9;
+    height: 497px;
+  }
+  
+  .bloglist-secondimg {
+    width: 363px;
+    height: 497px;
+  }
+  
+  #bloglist-secondimg {
+    width: 363px;
+    height: 497px;
+  }
+  
+  .bloglist-text2 {
+    width: 420px;
+    background-color: #D9D9D9;
+    height: 497px;
+  }
+  
+//   CSS for Profile
+
+.profile {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.profile-firstRow{
+    display: flex;
+    flex-direction: row;   
+}
+
+.profile-firstRow-title{
+    font-size: 63px;
+    font-family: Lustria;
+    margin-left: 400px;
+    margin-bottom: 40px;
+}
+
+.profile-firstRow-firstCol{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    font-size: 42px;
+    font-family: Inter;
+    font-weight: bold;
+}
+
+#profile-firstRow-firstCol{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.profile-firstRow-firstCol img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-left: 80px;
+}
+
+.profile-firstRow-secondCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-firstRow-group{
+    display: flex;
+    flex-direction: row;
+}
+.profile-firstRow-group1 {
+    font-family: Inter;
+    font-size: 45px;
+    margin-left: 120px;
+    font-weight: bold;
+}
+
+#profile-firstRow-group1{
+    margin:20px 0 20px 0;
+}
+
+#profile-btn{
+    margin-top: 100px;
+    width: 490px;
+    height: 100px;
+    margin-left: 260px;
+    background-color: #861B1B;
+    font-size: 64px;
+    font-family: Lustria;
+}
+
+.profile-secondRow{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.profile-secondRow-1 {
+    width: 1171px;
+    height: 167px;
+    background-color: #BC84C6;
+    font-family: Klee;
+    font-size: 64px ;
+}
+
+#profile-secondRow-1{
+    margin-left: 400px;
+    // margin-top: 100px;
+}
+
+.profile-secondRow-2{
+    width: 190px;
+    height: 75px;
+    background-color: #E5A3A3;
+    margin-left: 90px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Inter;
+}
+
+// CSS for Manager Post
+
+.manager {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.manager-1 {
+    font-size: 64px;
+    font-family: Lustria;
+    margin-left: 650px;
+    margin-bottom: 30px;
+}
+
+.manager-2{
+    width: 888px;
+    height: 67px;
+    background-color: #A3B76B;
+    margin-bottom: 25px;
+    margin-left: 300px;
+    font-size: 45px;
+    text-align: center;
+    font-family: Lustria;
+}
+
+// CSS for Viewblog
+.viewblog {
+    margin: 0;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.viewblog-1Col{
+    display: flex;
+    flex-direction: row;
+    font-family: Lustria;
+    font-size: 64px;
+    margin-left: 20px;
+}
+.viewblog-1Col img {
+    width: 76px;
+    height: 76px;
+}
+
+.viewblog-1Col-2{
+    font-family: Inter;
+    font-size: 48px;
+    margin-left: 370px;
+    margin-top: 20px;
+}
+
+.viewblog-2Col{
+    display: flex;
+    flex-direction: row;
+    font-family: Inter;
+    font-size: 41px;
+}
+
+#viewblog-kitchenimg{
+    width: 499px;
+    height: 258px;
+}
+
+#viewblog-2Col-text {
+    margin-left: 20px;
+}
+
+
+.viewblog-3Col{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    font-family: Lustria;
+    margin-left: 30px;
+    font-size: 32px;
+}
+
+.viewblog-3Col img{
+    width: 42px;
+    height: 48px;
+}
+
+#viewblog-3Col{
+    margin: 10px 5px 0 5px;
+}
+
+.viewblog-4Col{
+    display: flex;
+    flex: row;
+}
+
+#viewblog-4Col {
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.viewblog-4Col-2{
+    background-color: #FDD7D7;
+    width: 292px;
+    height: 98px;
+    margin: 10px 0 0 20px;
+    font-size: 24px;
+    font-family: Lustria;
+    
+}
+
+.viewblog-4Col-box{
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+#viewblog-4Col-box{
+    width: 17px;
+    height: 19px;
+    margin-top: 20px;
+}
+
+.viewblog-4Col-smallbox{
+    font-size: 20px;
+    font-family: Lustria;
+    background-color: #E1D7D7;
+    width: 274px;
+    height: 49px;
+    margin-top: 20px;
+}

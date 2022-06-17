@@ -1,0 +1,65 @@
+<div class="register">
+        <div class="register-title">
+            <span id="register-title">Register</span>
+        </div>
+        <form class="register-functions" action="/Login">
+            <div asp-validation-summary="All" class="text-danger">
+            </div>
+            <!-- HTML for Username Entering Field -->
+            <div class="register-username">
+                <div class="register-username-text">
+                    <label id="register-username-text" asp-for="Model.UserName">Username</label>
+                </div>
+                <div class="register-username-input">
+                    <input type="text" id="register-username-input">
+                </div>
+            </div>
+
+            <!-- HTML for Password Entering Field -->
+            <div class="register-password">
+                <div class="register-password-text">
+                    <label id="register-password-text" asp-for="Model.Password">Password</label>
+                </div>
+                <div class="register-password-input">
+                    <input type="password" asp-for="Model.Password" id="register-password-input">
+                </div>
+            </div>
+
+            <!-- HTML for Phone Entering Field -->
+            <div class="register-phone">
+                <div class="register-phone-text">
+                    <label id="register-phone-text" asp-for="Model.Phone">Phone</label>
+                </div>
+                <div class="register-phone-input">
+                    <input type="text" asp-for="Model.Phone" id="register-phone-input">
+                </div>
+            </div>
+
+            <!-- HTML for Email Entering Field -->
+            <div class="register-email">
+                <div class="register-email-text">
+                    <label id="register-email-text" asp-for="Model.Email">Email</label>
+                </div>
+                <div class="register-email-input">
+                    <input type="text" asp-for="Model.Email" id="register-email-input">
+                </div>
+            </div>
+
+            <!-- HTML for Sex Entering Field -->
+            <div class="register-sex">
+                <div class="register-sex-text">
+                    <span id="register-sex-text">Sex</span>
+                </div>
+                <div class="register-choseMale">
+                    <span id="register-choseMale-text">Male</span>
+                    <input type="radio" name="male/female" id="register-input-choseMale">
+                </div>
+                <div class="register-choseFemale">
+                    <span id="register-choseFemale-text">Female</span>
+                    <input type="radio" name="male/female" id="register-input-choseFemale">
+
+                </div>
+            </div>
+            <button id="register-signinButton" type="submit">Sign Up</button>
+        </form>       
+</div>

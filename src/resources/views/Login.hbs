@@ -1,0 +1,39 @@
+<div class="login">
+        <div class="loginTitle">
+            <span id="loginTitle">Login</span>
+        </div>
+        <form id="login-logForm" action="/Home">
+            <div class="logUsername">
+                <label id="usernameText" class="logText">Username</label>
+                <input type="text"  id="usernameInput" class="logInput">
+            </div>
+            
+            <div class="logPassword">
+                <label class="logText"  id="passwordText">Password</label>
+                <input type="password"  id="passwordInput" class="logInput">
+            </div>
+            <a href="Home">
+                <button id="loginButton" type="submit">Login</button>
+            </a>
+        </form>
+      
+        
+
+        <div class="fyp">
+            <span>Forgot your password?</span>
+        </div>
+
+        <form action="/Register">
+            <button id="registerButton">Register</button>
+        </form>
+        
+        {{!-- <script>
+            const run = document.getElementById("registerButton");
+            run.onclick = function (){
+                console.log("Hi");
+                Response.redirect('Register');
+            }
+            
+
+        </script> --}}
+</div>
